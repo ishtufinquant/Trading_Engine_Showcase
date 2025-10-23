@@ -1,0 +1,16 @@
+{
+    "Final Portfolio Value": 6192.1389,
+    "Total Return (%)": 87.6406,
+    "CAGR (%)": null,
+    "Sharpe Ratio (annualized)": null,
+    "Sortino Ratio": null,
+    "Max Drawdown (%)": -25.8348,
+    "Calmar Ratio": null,
+    "Total Trades": 6,
+    "Win Rate (%)": 83.3333,
+    "Average Win (%)": 14.3252,
+    "Average Loss (%)": -3.1146,
+    "Payoff Ratio": 4.5993,
+    "Profit Factor": 20.2388,
+    "metrics_warning": "Backtest duration (8.9 days) is too short (<18 days). Annualized metrics (CAGR, Sharpe, Sortino, Calmar) are omitted because short-term performance cannot reliably represent annualized returns."
+}
