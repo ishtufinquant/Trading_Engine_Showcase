@@ -161,8 +161,8 @@ Each layer (data, indicators, strategies, and simulation) can be adjusted withou
       "capital_fraction": 0.33
     },
     {
-      "name": "RSI_BB_MACD_Combo_SMA Combo",
-      "entry_conditions": ["rsi_signal", "bb_signal", "macd_signal", "sma_signal"],
+      "name": "RSI_BB_Combo Combo",
+      "entry_conditions": ["rsi_signal", "bb_signal"],
       "exit_conditions": ["rsi_sell_signal"],
       "capital_fraction": 0.33
     }
@@ -172,7 +172,7 @@ Each layer (data, indicators, strategies, and simulation) can be adjusted withou
     "initial_capital": 10000,
     "slippage_pct": 0.00,
     "commission_pct": 0.00,
-    "trade_on_close": false,
+    "trade_on_close": true,
     "enable_buy_link": true
   }
 }
@@ -278,11 +278,19 @@ Here’s an example snapshot of the interactive candlestick chart, metrics, trad
 > Full trade management logic is available in full builds.
 
 > 🧩 **Consistency Note**  
-> All sample outputs (chart, trades CSV, metrics JSON, and PDF report) come from the **same backtest run**, enabling full cross-verification of signals, trade entries/exits, and PnL accuracy.
+> All sample outputs (chart, trades CSV, metrics JSON, and PDF report) come from the **same backtest run**, enabling full cross-verification of signals, trade entries/exits, and PnL accuracy (This sample output may not be reconciled with above given configuration in Example configuration section).
 
-🔗 **[View Interactive Sample Chart](trading_engine_showcase/sample_chart.html)**
+🔗 **[View Sample Chart Full_View](https://github.com/ishtufinquant/Trading_Engine_Showcase/blob/main/sample_chart_full%20view.png)**
 
+🔗 **[View Sample Chart_Zoomed](https://github.com/ishtufinquant/Trading_Engine_Showcase/blob/main/sample_chart_zoomed.png)**
 
+🔗 **[View Interactive Sample Chart in html format](https://github.com/ishtufinquant/Trading_Engine_Showcase/blob/main/sample_interactive_candlestick_chart.html)**
+
+🔗 **[View Sample Performance Metrics](https://github.com/ishtufinquant/Trading_Engine_Showcase/blob/main/sample_metrics.json)**
+
+🔗 **[View Sample Trade Logs](https://github.com/ishtufinquant/Trading_Engine_Showcase/blob/main/sample_trades_log.csv)**
+
+🔗 **[View Sample Report](https://github.com/ishtufinquant/Trading_Engine_Showcase/blob/main/sample_report.pdf)**
 ### ✅ Summary
 
 This engine provides:
@@ -296,3 +304,11 @@ Interactive visualization and analytics
 Ready-to-deliver client reports
 
 All built for practical, professional-grade freelancing work.
+
+---
+
+## 👤 Author
+
+**Muhammad Ishtiaq**  
+Data-driven Trading Systems Developer  
+[ishtiaq8288@yahoo.com](mailto:ishtiaq8288@yahoo.com)  
